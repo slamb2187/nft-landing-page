@@ -38,25 +38,34 @@ body {
 }
 
 #myVideo {
-  position: absolute;
+  position: fixed;
   right:0;
-  bottom: 0;;
+  bottom: 0;
   width: 100%;
   min-height: 100vh;
-  padding-left: 8%;
-  padding-right: 8%;
-  overflow: hidden;
+  
 }
 .countdown {
   position: relative;
-  right: 0;
-  top: -50px;
+  flex-basis: 60%;
+  display: flex;
+  align-items: center;
+}
+.col-2{
+  position: relative;
+  flex-basis: 60%;
+  display: flex;
+  align-items: center;
+}
+.col-2 .mainLogo{
   width: 100%;
 }
+
 
 /* HEADER */
 
 header {
+  position: relative;
   box-shadow: var(--header-shadow);
 }
 
@@ -159,7 +168,7 @@ section {
   display: inline-block;
   width: 100%;
   text-align: center;
-  line-height: .2;
+  line-height: 1;
   border-radius: 0 0 4px 4px;
 }
 
@@ -176,16 +185,17 @@ section {
   font-family: var(--font-secondary);
   margin-bottom: 2rem;
   text-align: center;
+  line-height: 5rem;
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .menu {
     gap: 1rem;
   }
   .wallet-btn {
     margin-left: 0;
     padding: 1rem;
-    max-width: 8rem;
+    max-width: 100%;
   }
   .countdown h1 {
     font-size: 2rem;
@@ -193,5 +203,10 @@ section {
   .countdown p {
     font-size: 1rem;
   }
+  .mainlogo{
+    flex-direction: column-reverse;
+    margin: 50px 0;
+  }
+
 }
  
