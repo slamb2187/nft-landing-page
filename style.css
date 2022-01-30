@@ -37,12 +37,14 @@ body {
   padding: 1rem 2rem;
 }
 
-#myVideo {
-  position: fixed;
-  right:0;
-  bottom: 0;
+.bgimage {
+  position: absolute;
   width: 100%;
-  min-height: 100vh;
+  height: 100%;
+  bottom: -150px;
+  background: url('images/header/ParaCat\ BG.png');
+  background-repeat: no-repeat;
+  background-size:cover;
   
 }
 .countdown {
@@ -209,6 +211,7 @@ section {
   .col-2{
     flex-basis: 10%;
   }
+  
 
 }
  
