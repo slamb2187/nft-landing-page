@@ -50,10 +50,11 @@ body {
   flex-basis: 60%;
   display: flex;
   align-items: center;
+  bottom: 60px;
 }
 .col-2{
   position: relative;
-  flex-basis: 60%;
+  flex-basis: 30%;
   display: flex;
   align-items: center;
 }
@@ -202,10 +203,13 @@ section {
   }
   .countdown p {
     font-size: 1rem;
+    
   }
-  .mainlogo{
-    flex-direction: column-reverse;
-    margin: 50px 0;
+  .countdown{
+    bottom: 5px;
+  }
+  .col-2{
+    flex-basis: 10%;
   }
 
 }
