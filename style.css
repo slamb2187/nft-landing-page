@@ -44,14 +44,13 @@ body {
   background: url('images/header/ParaCat\ BG.png');
   background-repeat: no-repeat;
   background-size:cover;
-  
 }
 .countdown {
   position: relative;
   flex-basis: 60%;
   display: flex;
   align-items: center;
-  bottom: 20px;
+  bottom: -100px;
 }
 .col-2{
   position: relative;
@@ -60,6 +59,16 @@ body {
   align-items: center;
 }
 .col-2 .mainLogo{
+  width: 100%;
+}
+.catcrew{
+  position: relative;
+  flex-basis: 30%;
+  display: flex;
+  align-items: center;
+  bottom: -200px;
+}
+.catcrew .cat{
   width: 100%;
 }
 
