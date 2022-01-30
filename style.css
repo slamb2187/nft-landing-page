@@ -50,7 +50,7 @@ body {
   flex-basis: 60%;
   display: flex;
   align-items: center;
-  bottom: 200px;
+  bottom: 50px;
 }
 .col-2{
   position: relative;
