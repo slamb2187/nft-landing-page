@@ -50,7 +50,7 @@ body {
   flex-basis: 60%;
   display: flex;
   align-items: center;
-  bottom: 100px;
+  bottom: 200px;
 }
 .col-2{
   position: relative;
@@ -206,7 +206,7 @@ section {
     
   }
   .countdown{
-    bottom: 5px;
+    bottom: 100px;
   }
   .col-2{
     flex-basis: 10%;
